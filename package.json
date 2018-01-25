@@ -1,0 +1,26 @@
+{
+  "name": "backend-bootstrap",
+  "version": "1.0.0",
+  "description": "A quick start for express, GrphQL, mongosse, node back end stack",
+  "main": "app.js",
+  "scripts": {
+    "start":"node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WorldOfCode22/Backend-Bootstrap.git"
+  },
+  "author": "Sloan Gwaltney (worldofcode22@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WorldOfCode22/Backend-Bootstrap/issues"
+  },
+  "homepage": "https://github.com/WorldOfCode22/Backend-Bootstrap#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.12.3",
+    "mongoose": "^5.0.1"
+  }
+}
